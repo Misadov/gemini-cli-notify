@@ -182,8 +182,7 @@ while True:
                 # Verify if the process title contains known Gemini markers
                 title_lower = title.lower()
                 if (title and (
-                    "gemini" in title_lower or 
-                    "geminidone" in title_lower or 
+                    "gemini" in title_lower or
                     "gemini-cli" in title_lower or
                     "dist\\index.js" in title_lower or
                     "◇" in title or
